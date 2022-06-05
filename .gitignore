@@ -23,3 +23,7 @@ obj/
 .idea/
 build/
 node_modules/
+
+# fatsheep9146
+pkg/
+src/frontend/server
