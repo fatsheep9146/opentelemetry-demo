@@ -1,0 +1,9 @@
+FROM alpine AS release
+
+WORKDIR /usr/src/app/
+
+COPY ./products.json ./
+COPY ./productcatalogservice/ ./
+
+EXPOSE 3550
+ENTRYPOINT [ "./productcatalogservice" ]
